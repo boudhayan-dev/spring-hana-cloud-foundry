@@ -1,0 +1,7 @@
+applications:
+- name: migration
+  path: target/migration-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+    - hana_migration
