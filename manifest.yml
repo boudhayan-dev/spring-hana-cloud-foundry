@@ -1,6 +1,6 @@
 applications:
-- name: migration
-  path: target/migration-0.0.1-SNAPSHOT.war
+- name: spring-hana-cloud-foundry
+  path: target/spring-hana-cloud-foundry-0.0.1-SNAPSHOT.war
   buildpack: java_buildpack
   memory: 1024M
   services:
