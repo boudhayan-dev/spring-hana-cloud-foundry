@@ -1,6 +1,14 @@
 # Spring-Hana-Cloud-Foundry
 
 This is a sample spring boot application that makes use of SAP HANA Service on SAP Cloud Platform (Cloud Foundry).
+The accompanying blog series talks about the configuration needed on the SCP side.
+
+* PART 1 - [Developing the application](https://blogs.sap.com/2019/07/22/develop-a-spring-boot-java-application-with-hana-database-on-sap-cloud-platform-cloud-foundry-part-1/)
+    
+* PART 2 - [Creating HANA instance and configuration](https://blogs.sap.com/2019/07/22/develop-a-spring-boot-java-application-with-hana-database-on-sap-cloud-platform-cloud-foundry-part-2/)
+    
+* PART 3 - [Deployment and Test](https://blogs.sap.com/2019/07/22/develop-a-spring-boot-java-application-with-hana-database-on-sap-cloud-platform-cloud-foundry-part-3/)
+
 
 ### Requirements 
 * [spring-cloud-cloudfoundry-hana-service-connector](https://github.com/SAP/spring-cloud-sap) - Used for making the connection with HANA db on cloud.
